@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<div class="container">
+    <form id="signup">
+        <div id="signup-header"class="header selected">
+            <h3><a href="">Sign Up</a></h3>
+        </div>
+        <div id="login-header" class="header">
+            <h3><a href="">Login</a></h3>
+        </div>
+        <div class="inputs loginselector">
+            <input type="username" placeholder="Username"/>
+            <input type="password" placeholder="Password" />
+        </div>
+        
+        <div class="inputs signupselector">
+            <input type="firstname" placeholder="First Name"/>
+            <input type="lastname" placeholder="Last Name"/>
+            <input type="username" placeholder="Username"/>
+            <input type="password" placeholder="Password"/>
+        </div>
+        
+        <div class="button">
+            <button id="sign" class="signupselector" type="button">Create Account</button>
+            <button id="login" class="loginselector" type="button">Login</button>
+        </div>
+        <div class="error" style="color:red; margin-left:10px;" hidden>
+            <span>* Username or password is invalid</span>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    padding-top: 20px;
+}
+
+.container {
+    width: 406px;
+    max-width: 406px;
+    margin: 0 auto;
+}
+
+#signup {
+padding: 0px 25px 25px;
+background: #fff;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+display: table;
+position: static;
+}
+
+#signup .header {
+margin-bottom: 50px;
+width:50%;
+float:left;
+text-align:center;
+}
+
+#signup .header.selected{
+    background-color: #DCDCDC;
+    margin-top: 2px;
+}
+
+#signup .header a {
+    text-decoration:none;
+    color:#777777;
+}
+
+
+#signup .header h3 {
+color: #777777;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+#signup .inputs {
+margin-top: 25px;
+}
+
+input::-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
+input:-moz-placeholder {
+    color:    #b5b5b5;
+}
+
+#signup .inputs input[type=firstname], input[type=lastname], input[type=username], input[type=password] {
+background: #f5f5f5;
+font-size: 0.8rem;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border: none;
+padding: 13px 10px;
+width: 330px;
+margin-bottom: 20px;
+box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+clear: both;
+}
+
+#signup .inputs input[type=firstname]:focus, input[type=lastname]:focus, input[type=username]:focus, input[type=password]:focus {
+background: #fdfdfd;
+}
+
+#signup .button {
+    text-align:center;
+}
+#signup .button button{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: #04B745;
+    color: white;
+}
